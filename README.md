@@ -1,8 +1,8 @@
 
 # Burger Builder
 <div align="center">
-    <a href="http://thismypc.com/">
-        <img src="burgerbuilder/src/assets/screenshot1.png">
+    <a href="https://theburgerbuilderapp.netlify.com/">
+        <img src="src/assets/screenshot1.png">
     </a>
 </div>
 
@@ -27,7 +27,7 @@
 ## App Screenshots
 
   Login         |  Burger Builder | Checkout |  
-:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
+:--------------:|:---------------:|:--------:|
 Not implemented |<img src="burgerbuilder/src/assets/screenshot1.PNG" title="Burger Builder" width="100%">|Not implemented |
 
 ## Folder Structure
