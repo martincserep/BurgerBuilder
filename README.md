@@ -13,7 +13,7 @@
 [![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://theburgerbuilderapp.netlify.com/)
 <br />
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/c00af4f644a943d384cbf445581ed322)](https://www.codacy.com/manual/martincserep/BurgerBuilder?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=martincserep/BurgerBuilder&amp;utm_campaign=Badge_Grade)
-![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/supunlakmal/thismypc/graphs/commit-activity) [![Website https://theburgerbuilderapp.netlify.com](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://theburgerbuilderapp.netlify.com/) 
+![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/martincserep/BurgerBuilder/graphs/commit-activity) [![Website https://theburgerbuilderapp.netlify.com](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://theburgerbuilderapp.netlify.com/) 
 [![Gitter](https://badges.gitter.im/gitterHQ/gitter.svg)](https://gitter.im/burgerbuilder/community)
 </div>
 
