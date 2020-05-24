@@ -1,21 +1,21 @@
-import React, { Component } from 'react';
-import { Route, Switch, withRouter, Redirect } from 'react-router-dom';
-import { connect } from 'react-redux';
+import React, { Component } from "react";
+import { Route, Switch, withRouter, Redirect } from "react-router-dom";
+import { connect } from "react-redux";
 
-import Layout from './hoc/Layout';
-import BurgerBuilder from './containers/BurgerBuilder/';
-import Checkout from './containers/Checkout/';
-import Orders from './containers/Orders';
-import Auth from './containers/Auth';
-import Logout from './containers/Auth/Logout';
-import * as actions from './store/actions/index';
+import Layout from "./hoc/Layout";
+import BurgerBuilder from "./containers/BurgerBuilder/";
+import Checkout from "./containers/Checkout/";
+import Orders from "./containers/Orders";
+import Auth from "./containers/Auth";
+import Logout from "./containers/Auth/Logout";
+import * as actions from "./store/actions/index";
 
 class App extends Component {
-  componentDidMount () {
+  componentDidMount() {
     this.props.onTryAutoSignup();
   }
 
-  render () {
+  render() {
     let routes = (
       <Switch>
         <Route path="/auth" component={Auth} />
@@ -24,7 +24,7 @@ class App extends Component {
       </Switch>
     );
 
-    if ( this.props.isAuthenticated ) {
+    if (this.props.isAuthenticated) {
       routes = (
         <Switch>
           <Route path="/checkout" component={Checkout} />
@@ -38,24 +38,22 @@ class App extends Component {
 
     return (
       <div>
-        <Layout>
-          {routes}
-        </Layout>
+        <Layout>{routes}</Layout>
       </div>
     );
   }
 }
 
-const mapStateToProps = state => {
+const mapStateToProps = (state) => {
   return {
-    isAuthenticated: state.auth.token !== null
+    isAuthenticated: state.auth.token !== null,
   };
 };
 
-const mapDispatchToProps = dispatch => {
+const mapDispatchToProps = (dispatch) => {
   return {
-    onTryAutoSignup: () => dispatch( actions.authCheckState() )
+    onTryAutoSignup: () => dispatch(actions.authCheckState()),
   };
 };
 
-export default withRouter( connect( mapStateToProps, mapDispatchToProps )( App ) );
+export default withRouter(connect(mapStateToProps, mapDispatchToProps)(App));
