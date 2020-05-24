@@ -1,6 +1,6 @@
 import React from 'react';
 
-import styles from './Order.module.scss'
+import styles from './Order.module.scss';
 
 const order = ( props ) => {
     const ingredients = [];

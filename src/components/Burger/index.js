@@ -1,7 +1,7 @@
 import React from 'react';
 
 import styles from './Burger.module.scss';
-import BurgerIngredient from './BurgerIngredient/';
+import BurgerIngredient from './BurgerIngredient';
 
 const burger = ( props ) => {
     console.log(props);
@@ -20,7 +20,7 @@ const burger = ( props ) => {
     return (
         <div className={styles.Burger}>
             <BurgerIngredient type="bread-top" />
-                {transformedIngredients}
+            {transformedIngredients}
             <BurgerIngredient type="bread-bottom" />
         </div>
     );
